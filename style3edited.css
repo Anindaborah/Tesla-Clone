@@ -1,0 +1,340 @@
+*{
+  margin:0;
+  padding: 0;
+ }
+  .model1{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+  
+  
+   
+
+
+   }.backimg{
+    height: 100%;
+    width: 200%;
+    transform: scale(2.2);
+
+   }
+   .bimg1{
+    height: 80%;
+    width: 100%;
+    z-index:-1;
+   }
+   
+   .Teslalogo{
+    width: 109px;
+    margin-top: 20px;
+   
+   }.navbarcontainer{
+    width: 100vw;
+    z-index: 1;
+   }
+   
+   .navbar{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 1%;
+    top: 0%;
+    
+   }
+   
+   ul li {
+     list-style: none;
+     display: inline-block;
+     color: black;
+     font-family: 'Montserrat', sans-serif;
+     
+     margin-right: 16px;
+     font-size: 14px;
+     font-weight: bold;
+     margin: 12px;
+     padding: 8px;
+     transition: 0.5s;
+    }
+   
+
+   
+   ul li:hover {
+    background: #fef5f5;
+    border-radius: 10px;}
+    a {
+      text-decoration: none;
+      color: #090000;
+     }
+   
+   
+   
+   .content1{
+    width: 100vw;
+    height: 40vh;
+
+    position: absolute;
+    top: 30%;
+
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    
+    gap: 20px;
+
+   }
+   .content2{
+    width: 100vw;
+    height: 40vh;
+    position: absolute;
+    top:20%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    gap: 20px;
+
+   }
+   
+   
+   .Page1{
+    height: 100vh;
+    width: 100vw;
+
+   }.Page2{
+    height: 100vh;
+    width: 100vw;
+   }.Page3{
+    height: 100vh;
+    width: 100vw;
+   }
+   .Page4{
+    height: 100vh;
+    width: 100vw;
+   }
+   .Page5{
+    height: 100vh;
+    width: 100vw;
+   }
+   .Page6{
+    height: 100vh;
+    width: 100vw;
+   }
+   .Page7{
+    height: 100vh;
+    width: 100vw;
+   }
+   .Page8{
+    height: 100vh;
+    width: 100vw;
+   }
+
+   
+   
+   
+   h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #3b3b3b;
+    text-align: center;
+    font-size: 39px;
+    margin-top: -20px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+   }
+   
+   h3 {
+    margin-top: -20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: grey;
+    text-align: center;
+    cursor: pointer;
+   }
+   
+   button {
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    background: #3b3b3b;
+    color: white;
+    font-weight: 15px;
+    font-size: 15px;
+    width: 240px;
+    height: 38px;
+    letter-spacing: 1.5px;
+    text-align: center;
+   
+  
+    cursor: pointer;
+   }
+   .b2 {
+     padding: 10px;
+    border-radius: 25px;
+    border: none;
+    background: white;
+    color: #3b3b3b;
+    font-weight: 20px;
+    font-size: 13px;
+    width: 240px;
+    height: 38px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    
+    cursor: pointer;
+   }
+   
+   
+   svg {
+    position: absolute;
+    top: 100%;
+    left: 51%;
+    transform: translate(-50%, -100%);
+    animation: bounce 0.5s infinite;
+   }
+   .placeorder{
+    width: 100vw;
+    z-index: 1;
+   display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+   
+    position :absolute;
+    top:85%;
+
+   
+
+   }
+   @keyframes bounce {
+    from {
+    position: absolute;
+    top: 99%;
+    left: 51%;
+    transform: translate(-50%, -100%);
+    }
+    to {
+     position: absolute;
+    top: 100%;
+    left: 51%;
+    transform: translate(-50%, -100%);
+    }
+   }
+   
+   
+   
+   
+   
+   
+   @media (max-width: 450px) {
+   img {
+     width: 60px;
+    }
+    button {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translate(-40%, -80%);
+    }
+    .b2 {
+    position: absolute;
+    top: 87%;
+    left: 40%;
+    transform: translate(-40%, -87%);
+    }
+   }
+   @media (max-width: 970px) {
+    ul li {
+     display: none;
+    }
+   }
+   
+   @media (max-width: 1319px) {
+    button {
+     width: 200px;
+     height: 40px;
+     font-size: 13px;
+    }
+    .b2 {
+     width: 200px;
+     height: 40px;
+     font-size: 13px;
+    }
+   }
+   
+   @media (max-width: 1149px) {
+    button {
+     width: 200px;
+     height: 40px;
+     font-size: 13px;
+    }
+    .b2 {
+     width: 200px;
+     height: 40px;
+     font-size: 13px;
+    }
+   }
+   
+   
+   @media (max-width: 1101px) {
+    button {
+     width: 190px;
+     font-size: 11px;
+     height: 35px;
+    }
+    .b2 {
+     width: 190px;
+     font-size: 11px;
+     height: 35px;
+    }
+   }
+   
+   @media (max-width: 1058px) {
+    button {
+     width: 180px;
+     font-size: 7px;
+     height: 35px;
+    }
+    .b2 {
+     width: 180px;
+     font-size: 7px;
+     height: 35px;
+    }
+   }
+   
+   @media (max-width: 1057px) {
+    button {
+     font-size: 10px;
+    }
+    .b2 {
+     font-size: 10px;
+    }
+   }
+   
+   
+   @media (max-width: 1005px) {
+    button {
+     width: 170px;
+    }
+    .b2 {
+     width: 170px;
+    }
+   }
+   @media (max-width: 939px) {
+    button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    }
+    .b2 {
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -87%);
+    }
+  }
+   
+   @media (max-width: 1163px) {
+    ul li {
+     font-size: 13px;
+     margin: 7px;
+    }
+  } 
